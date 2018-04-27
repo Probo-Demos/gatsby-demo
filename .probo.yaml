@@ -11,7 +11,7 @@ steps:
     script: |
       npm install --global gatsby-cli
       npm install
-  - name: Build Gatsby site
+  - name: Build Gatsby site.
     plugin: Script
     script: |
       gatsby build --verbose
