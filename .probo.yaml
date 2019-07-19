@@ -4,9 +4,9 @@ steps:
     script: |
       npm install --global n
       n latest
-  - name: Upgrade npm
+  - name: Upgrade npm.
     command: 'npm install --global npm@latest-4'
-  - name: Install dependencies
+  - name: Install Gatsby build dependencies.
     plugin: Script
     script: |
       npm install --global gatsby-cli
