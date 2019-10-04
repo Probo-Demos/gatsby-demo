@@ -1,5 +1,5 @@
 steps:
-  - name: Update Node.js
+  - name: Update Node.js.
     plugin: Script
     script: |
       npm install --global n
